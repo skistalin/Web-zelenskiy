@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>Дела на день</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <style>
+            .todo-item {
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 text-center">
+                    <h1>Список дел</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-offset-3 col-xs-6">
+                    <ul id="list" class="list-group">
+                        <li class="list-group-item">
+                            <input type="text" id="field" class="form-control" placeholder="Что нужно сделать?">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div id="remove-dialog" class="modal fade" tabindex="-1">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <p>Вы действительно хотите удалить выделенные элементы?</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn-default" data-dismiss="modal">Закрыть</button>
+                <button type="button" id="remove-dialog-ok" class="btn btn-danger">Удалить</button>
+            </div>
+        </div>
+        </div>
+        </div>
+        
+        <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script src="Dela.js"></script>
+    </body>
+</html>
