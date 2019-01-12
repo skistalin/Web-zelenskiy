@@ -11,14 +11,10 @@ body {
 header {
     margin: 0;
     padding: 5px;
-    background-color: aqua;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    right: 20px;
-    bottom: 85%;
+    background-color:bisque;
+
     border-bottom: none;
-    border: 5px solid white;
+    border: 5px solid gold;
     box-sizing: border-box;
 }
 
@@ -28,12 +24,8 @@ p {
 
 nav {
     margin-left: 10 px;
-    background-color: yellow;
-    position: absolute;
-    bottom: 5px;
-    left: 5px;
-    right: 5px;
-    top: 60%;
+    background-color: gold;
+    
     display: flex;
     align-items: center;
     padding-left: 5px;
@@ -42,27 +34,16 @@ nav {
 }
 
 div {
-    position: absolute;
-    right: 0px;
-    left: 0px;
-    top: 15%;
-    bottom: 15%;
-    margin: 0;
-    padding: 0;
-    display: flex;
+   
     flex-flow: row;
-    border-right: 5px solid white;
+    border-right: 5px solid red;
     box-sizing: border-box;
 }
 
 article {
     background-color: cornflowerblue;
     padding: 10px;
-    position: absolute;
-    top: 0px;
-    bottom: 0px;
-    left: 0;
-    right: 40%;
+   height: 850px;
     display: flex;
     flex-flow: column;
     border-right: 5px solid white;
@@ -70,7 +51,8 @@ article {
 }
 
 section {
-    background-color: coral;
+    background-color:yellowgreen;
+    width: 78%;
     margin: 5px;
     flex-grow: 1;
     padding: 5px 50px;
@@ -80,11 +62,7 @@ section {
 aside {
     background-color: darkred;
     padding: 5px;
-    position: absolute;
-    top: 0px;
-    bottom: 0px;
-    left: 60%;
-    right: 0;
+    
     display: flex;
     border-left: 5px solid whitesmoke;
     box-sizing: border-box;
@@ -95,12 +73,9 @@ footer{
     margin: 0;
     padding: 0px;
     background-color: gold;
-    position: absolute;
-    left: 0;
-    top: 80%;
-    right: 20%;
-    bottom: 0;
+    
     border-top: none;
     border: 5px solid whitesmoke;
     box-sizing: border-box;
 }
+
